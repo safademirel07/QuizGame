@@ -14,7 +14,9 @@ Also Bil Kazan supports in-game purchases such as buying the answer of the quest
 
 The game logs some of your events with Firebase. Some examples; your scores, right and wrong counts, in-game purchases, clicking to ads.
 
-Unfortunately files o server side has been lost.
+Unfortunately files o server side has been lost. 
+
+The project finished in August 2017.
 
 Used libraries in this project
 
