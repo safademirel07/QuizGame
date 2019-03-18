@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "49063185859",
+    "firebase_url": "https://multiplayer-quiz-game-22331236.firebaseio.com",
+    "project_id": "multiplayer-quiz-game-22331236",
+    "storage_bucket": "multiplayer-quiz-game-22331236.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49063185859:android:7a50c4dcc1db1077",
+        "android_client_info": {
+          "package_name": "com.safademirel.quizgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49063185859-u3v58cnaug6k8ec6thl8nknf28npvr1m.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "49063185859-92bffl6pdcp49gfu1qne9g093o8cnkri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.safademirel.quizgame",
+            "certificate_hash": "1a45d99eee6a3f3473bd9d063aab803892d05f20"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJPZtqQ9FCXd7hjrRiv-uz8m4wmcJ4Nn4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49063185859-u3v58cnaug6k8ec6thl8nknf28npvr1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

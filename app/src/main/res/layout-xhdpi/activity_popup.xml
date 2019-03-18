@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded6"
+    android:paddingTop="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+
+    tools:context="com.safademirel.quizgame.Activities.Popup">
+
+    <com.safademirel.quizgame.Utilities.ColorArcProgressBar
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/barPopup"
+        app:is_need_content="true"
+        app:front_color1="@color/btnClassic"
+
+        app:max_value="12"
+        app:back_width="10dp"
+        app:front_width="10dp"
+        app:total_engle="270"
+        app:is_need_unit="true"
+        app:string_unit="Doğru"
+        app:back_color="#F44336"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <LinearLayout
+        android:weightSum="100"
+        android:baselineAligned="false"
+
+        android:layout_below="@id/barPopup"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayoutPopup">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="33">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DOĞRU"
+                android:textColor="#80ffffff"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/prightValue"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="33">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YANLIŞ"
+                android:textColor="#80ffffff"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/pfalseValue"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="33">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SKOR"
+                android:textColor="#80ffffff"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="120"
+                android:id="@+id/pskorValue"
+                android:layout_marginBottom="16dp"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/safaTest"
+    android:background="@drawable/bg_safa"
+
+    tools:context="com.safademirel.quizgame.Activities.Category">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button android:id="@+id/popbtnCategory1"
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori1Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+
+
+            <Button android:id="@+id/popbtnCategory2"
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori2Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+
+            <Button android:id="@+id/popbtnCategory3"
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori3Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+
+
+
+
+            <Button android:id="@+id/popbtnCategory4"
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori4Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+
+
+            <Button android:id="@+id/popbtnCategory5"
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori5Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/popbtnCategory6"
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori6Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+
+
+            <Button
+                android:id="@+id/popbtnCategory7"
+
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori7Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/popbtnCategory8"
+
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori8Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+
+
+            <Button
+                android:id="@+id/popbtnCategory9"
+
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori9Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+
+
+            <Button
+                android:id="@+id/popbtnCategory10"
+
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori10Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/popbtnCategory11"
+
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori11Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/popbtnCategory12"
+
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori12Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/popbtnCategory13"
+
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori13Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/popbtnCategory14"
+
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori14Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/popbtnCategory15"
+
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori15Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/popbtnCategory16"
+
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori16Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/popbtnCategory17"
+
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori17Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/popbtnCategory18"
+
+                android:background="@drawable/rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25sp"
+                android:text="@string/Kategori18Name"
+                android:fontFamily="roboto_condensed_bold_italic"
+                android:drawableRight="@drawable/next"
+                android:drawablePadding="-35sp"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

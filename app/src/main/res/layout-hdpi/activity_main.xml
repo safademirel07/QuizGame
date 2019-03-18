@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_safa"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+
+    android:layout_height="match_parent"
+    tools:context="com.safademirel.quizgame.Activities.Main">
+
+
+
+    <ImageView
+
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/muhtesem" />
+
+    <Button
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/btnClassic"
+        android:background="@drawable/rounded3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="25dp"
+        android:visibility="invisible"
+
+        android:text="Oyun Başlat"
+        android:drawableLeft="@drawable/play"
+        android:drawablePadding="-35sp"
+        android:layout_below="@+id/imgLogo" />
+    <Button
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/btnLogin"
+        android:background="@drawable/rounded3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="25dp"
+        android:visibility="visible"
+        android:text="Giriş Yap"
+        android:drawableLeft="@drawable/login"
+        android:drawablePadding="-40sp"
+        android:layout_below="@+id/imgLogo" />
+
+    <Button
+        android:id="@+id/btnScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnClassic"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded3"
+        android:drawableLeft="@drawable/records"
+        android:drawablePadding="-45sp"
+        android:text="Rekorların"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/btnRanking"
+        android:background="@drawable/rounded3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="25dp"
+        android:text="Sıralama"
+        android:drawableLeft="@drawable/ranking"
+        android:drawablePadding="-45sp"
+        android:layout_below="@+id/btnScore" />
+
+    <Button
+        android:id="@+id/btnAchi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRanking"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded3"
+        android:drawableLeft="@drawable/achi"
+        android:drawablePadding="-45sp"
+        android:text="Başarılar"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+    <Button
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/btnLogout"
+        android:background="@drawable/rounded3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="25sp"
+        android:text="Çıkış Yap"
+        android:visibility="visible"
+        android:drawableLeft="@drawable/logout"
+        android:drawablePadding="-40sp"
+        android:layout_below="@+id/btnAchi" />
+
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/bannerad1"
+        android:layout_centerHorizontal="true">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

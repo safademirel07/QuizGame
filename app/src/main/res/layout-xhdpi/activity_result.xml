@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_safa"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.safademirel.quizgame.Activities.Result">
+
+
+    <com.safademirel.quizgame.Utilities.ColorArcProgressBar
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bar1"
+        app:is_need_content="true"
+        app:front_color1="@color/btnClassic"
+
+        app:max_value="12"
+        app:back_width="10dp"
+        app:front_width="10dp"
+        app:total_engle="270"
+        app:is_need_unit="true"
+        app:string_unit="Doğru"
+        app:back_color="#F44336"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <LinearLayout
+        android:weightSum="100"
+        android:baselineAligned="false"
+
+        android:layout_below="@id/bar1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="33">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DOĞRU"
+                android:textColor="#80ffffff"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/rightValue"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="33">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YANLIŞ"
+                android:textColor="#80ffffff"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/falseValue"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="33">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SKOR"
+                android:textColor="#80ffffff"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="120"
+                android:id="@+id/skorValue"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/btnShare"
+        android:background="@drawable/rounded2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="25sp"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:text="Paylaş"
+        android:drawableLeft="@drawable/share"
+        android:drawablePadding="-35sp"
+        android:layout_below="@+id/linearLayout" />
+
+
+    <Button
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/btnMenuDon"
+        android:background="@drawable/rounded3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="25sp"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:text="MENÜYE DÖN"
+        android:drawableLeft="@drawable/back"
+        android:drawablePadding="-35sp"
+        android:layout_below="@+id/btnShare" />
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/bannerad2"
+        android:layout_centerHorizontal="true">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

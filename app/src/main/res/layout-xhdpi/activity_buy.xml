@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded6"
+    android:paddingTop="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+
+    tools:context="com.safademirel.quizgame.Activities.Buy">
+
+    <Button
+        android:id="@+id/btUse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded2"
+        android:gravity="center"
+        android:padding="8dp"
+        android:scrollbars="none"
+        android:textSize="20dp"
+        android:text="Kullan (9999)"
+        android:textColor="@color/white" />
+
+
+    <TextView
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Satın Al"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/tvSatin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+
+        android:layout_below="@id/btUse"
+     />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_gravity="left"
+        android:layout_below="@id/tvSatin"
+        android:id="@+id/viewalti"
+        android:background="#ffffff" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llBuy"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/viewalti"
+
+        android:weightSum="100">
+
+
+
+        <Button
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:id="@+id/btnBuy1"
+            android:layout_weight="25"
+            android:background="@drawable/rounded3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="2dp"
+            android:text="10&#10;Doğru"
+            android:layout_below="@+id/txtQuestion" />
+
+        <Button
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:id="@+id/btnBuy2"
+            android:layout_weight="25"
+            android:background="@drawable/rounded3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+
+            android:text="25&#10;Doğru"
+            />
+
+        <Button
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:id="@+id/btnBuy3"
+            android:layout_weight="25"
+            android:background="@drawable/rounded3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+
+            android:text="50&#10;Doğru"
+            />
+
+
+        <Button
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:id="@+id/btnBuy4"
+            android:layout_weight="25"
+            android:background="@drawable/rounded3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:text="100&#10;Doğru"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llBuy2"
+        android:layout_below="@id/llBuy"
+        android:layout_centerHorizontal="true"
+        android:weightSum="100">
+
+
+
+        <Button
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:id="@+id/btnBuy5"
+            android:layout_weight="25"
+            android:background="@drawable/rounded3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+
+            android:text="250&#10;Doğru"
+            android:layout_below="@+id/txtQuestion" />
+
+        <Button
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:id="@+id/btnBuy6"
+            android:layout_weight="25"
+            android:background="@drawable/rounded3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+
+            android:text="500&#10;Doğru"
+            />
+
+        <Button
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:id="@+id/btnBuy7"
+            android:layout_weight="25"
+            android:background="@drawable/rounded3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+
+            android:text="750&#10;Doğru"
+            />
+
+
+        <Button
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:id="@+id/btnBuy8"
+            android:layout_weight="25"
+            android:background="@drawable/rounded3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="1000&#10;Doğru"
+            />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Reklam İzleyerek Kazan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/tvReklam"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@id/llBuy2"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_gravity="left"
+        android:layout_below="@id/tvReklam"
+        android:id="@+id/viewreklam"
+        android:background="#ffffff" />
+
+    <Button
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/btnBuyAd"
+        android:background="@drawable/rounded3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/viewreklam"
+        android:text="Reklam İzle (+2 Doğru)"
+        />
+
+
+</RelativeLayout>

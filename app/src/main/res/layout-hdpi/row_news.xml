@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relativeRowNews"
+        android:background="@drawable/rounded3"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitleRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Başlık"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvDescRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitleRow"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="23121342312321321312321312123"
+
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvDateRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvTitleRow"
+            android:layout_alignBottom="@+id/tvTitleRow"
+            android:layout_alignParentEnd="true"
+            android:text="23.37"
+            android:layout_marginRight="12dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

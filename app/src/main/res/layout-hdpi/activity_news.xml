@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_safa"
+
+    tools:context="com.safademirel.quizgame.Activities.News">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvNews"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

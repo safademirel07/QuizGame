@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- TODO Remove the following "exclude" elements to make them a part of the auto backup -->
+    <!-- Exclude the shared preferences file that contains the GCM registrationId -->
+    <exclude
+        domain="sharedpref"
+        path="1881192311715.xml" />
+    <exclude
+        domain="sharedpref"
+        path="12312321312.xml" />
+    <exclude
+        domain="sharedpref"
+        path="apprater.xml" />
+    <exclude
+        domain="sharedpref"
+        path="GAMEHELPER_SHARED_PREFS.xml" />
+    <exclude
+        domain="sharedpref"
+        path="123125423312.xml" />
+    <exclude
+        domain="sharedpref"
+        path="1881192311716.xml" />
+</full-backup-content>

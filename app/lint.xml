@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/achi.png" />
+        <ignore path="src/main/res/drawable/back.png" />
+        <ignore path="src/main/res/drawable/falsesing.png" />
+        <ignore path="src/main/res/drawable/login.png" />
+        <ignore path="src/main/res/drawable/logout.png" />
+        <ignore path="src/main/res/drawable/next.png" />
+        <ignore path="src/main/res/drawable/pass.png" />
+        <ignore path="src/main/res/drawable/play.png" />
+        <ignore path="src/main/res/drawable/quizlogo.png" />
+        <ignore path="src/main/res/drawable/ranking.png" />
+        <ignore path="src/main/res/drawable/records.png" />
+        <ignore path="src/main/res/drawable/truesing.png" />
+    </issue>
+</lint>
